@@ -25,7 +25,11 @@ This version improves efficiency and readability of the code. The spawnpoint of 
 ### Version 1.3
 This is the currently work-in-progress-version.
 
-The difficulty of the game will increase. You will be able to choose between difficulties (easy, medium, hard, super hard).
+The difficulty of the game will increase. You will be able to choose between difficulties (Easy, Medium, Hard, Super Hard).
+- Easy: The ball bounces of in a normal way and the speed of the ball and bats increase slowly, but it won't get that fast.
+- Medium: The ball bounces of in a normal way but the speed of the ball and bats increase faster and it will get pretty fast.
+- Hard: The ball bounces off in a random direction and speed is equal to Easy.
+- Super Hard: Super hard is a mix of Medium and Hard. The ball bounces off in random directions and it will get pretty fast.
 
 
 ### Version 2.0
