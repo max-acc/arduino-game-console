@@ -5,6 +5,7 @@
 ## Progress
 
 ### Version 1.0
+Goal: Building the game Pong.
 This is a non working version because I accidentally mixed up the x and y axis and started all over again.
 
 ### Version 1.1
@@ -24,13 +25,13 @@ The difficulty of the game will increase. You will be able to choose between dif
 
 
 ### Version 2.0
-Including the game TicTacToe.
+Goal: Building the game TicTacToe.
 
 ### Version 3.0
-Including the game Snake.
+Goal: Building the game Snake.
 
 ### Version 4.0
-Including the game PacMan.
+Goal: Building the game PacMan.
 
 ## Future roadmap for this project
 
