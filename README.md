@@ -6,18 +6,22 @@
 
 ### Version 1.0
 Goal: Building the game Pong.
+
 This is a non working version because I accidentally mixed up the x and y axis and started all over again.
 
 ### Version 1.1
 This is the first working version of the game **Pong**.
+
 The code is bad documented an not that efficient written. The primary goal of this version was to build a working version.
 
 ### Version 1.2
 This version was about improving efficiency of the code and providing a better documentation of the code.
+
 Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write all over again.
 
 ### Version 1.2.1
 This is the currently work-in-progress-version.
+
 This version will improve efficiency and readability of the code. It also will be improved in case of incerasing the number of games and difficulty. This will first happen in 1.3 but the structure will be there.
 
 ### Version 1.3
