@@ -22,7 +22,7 @@ Accidentally the code was messed up again and the only solution for this problem
 ### Version 1.2.1
 This is the currently work-in-progress-version.
 
-This version will improve efficiency and readability of the code. It also will be improved in case of incerasing the number of games and difficulty. This will first happen in 1.3 but the structure will be there.
+This version improves efficiency and readability of the code. The spawnpoint of the ball has also been updated. It will spawn now randomly on at position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer . Those changes made the game more fun.
 
 ### Version 1.3
 The difficulty of the game will increase. You will be able to choose between difficulties (easy, medium, hard, super hard).
