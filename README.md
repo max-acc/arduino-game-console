@@ -42,6 +42,9 @@ Goal: Building the game TicTacToe.
 Goal: Building the game Snake.
 
 ### Version 4.0
+Goal: Building the game ConnectFour.
+
+### Version 5.0
 Goal: Building the game PacMan.
 
 ## Future roadmap for this project
