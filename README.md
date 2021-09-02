@@ -14,10 +14,10 @@ The code is bad documented an not that efficient written. The primary goal of th
 
 ### Version 1.2.0
 This version was about improving efficiency of the code and providing a better documentation of the code.  
-Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write all over again.
+Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write it all over again.
 
 ### Version 1.2.1
-This version improves efficiency and readability of the code. The spawnpoint of the ball has also been updated. It will spawn now randomly on at position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer. Those changes made the game more fun to play.
+This version improves efficiency and readability of the code. The spawnpoint of the ball has also been updated. It will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer. Those changes made the game more fun to play.
 
 ### Version 1.2.2
 This version includes minor bug fixes and improvements referring to the bats and the highscore system (the 2 has been outputted in a wrong way). The bats are now pixel by pixel calculated and the ball is able to be at the same y-position as the bats.
