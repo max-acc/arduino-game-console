@@ -50,9 +50,7 @@ void setup() {
 }
 
 
-void loop() { 
-  
-  /* matrixArrange(); */
+void loop() {
   
   readJoysticks();
   proofJoysticks();
