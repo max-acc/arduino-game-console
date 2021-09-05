@@ -18,12 +18,13 @@ The game control is pretty intuitive. If you move the left or right joystick up 
 Another big thing of this version is the highscore system: If one of the players scores a point the highscore will be printed. But the highscore only goes to three. If someone scores another point nothing will be printed. This will be solved in a future version.
 
 ### Version 1.2.0
-This version was about improving efficiency of the code and providing a better documentation of the code.  
+This version was about improving efficiency and providing a better documentation of the code.  
 Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write it all over again.  
-Updated circiut
+The only thing which changed that has an impact, is the usage of the joystick's buttons. To achieve this the circuit had to be changed.
 
 ### Version 1.2.1
-This version improves efficiency and readability of the code. The spawnpoint of the ball has also been updated. It will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer. Those changes made the game more fun to play.
+This version is the second fully working version. The major changes in this version are about readability and efficiency referring to using functions multiple times and seperating functions from others to achieve a more global usage.  
+Minor changes are about the ball spawnpoint and the highscore system. The ball  will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer and if one of the players reaches five points the game will be over (the message "GO" or "Game Over" will be printed).
 
 ### Version 1.2.2
 This version includes minor bug fixes and improvements referring to the bats and the highscore system (the 2 has been outputted in a wrong way). The bats are now pixel by pixel calculated and the ball is able to be at the same y-position as the bats.
