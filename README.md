@@ -2,7 +2,7 @@
 
 ## Introduction
 The original idea about this project was to play the game **Pong** on an arduino.  
-The first problem was how to display the game. The easiest solution for this problem was to use an 8x8 one-color LED matrix (I used four LED matrix in a row because I had nothing else lying around), but a future improvement could be to use a RGB matrix (maybe 16x16).
+The first problem was how to display the game. The easiest solution for this problem was to use an 8x8 one-color LED matrix (I used four LED matrices in a row because I had nothing else lying around), but a future improvement could be to use a RGB matrix (maybe 16x16).
 
 
 ## Progress
@@ -42,6 +42,15 @@ The difficulties you can choose are:
 ## Roadmap
 
 ### Version 1.4.0
+Upgrading for using two matrices instead of only one.
+
+### Version 1.4.1
+Upgrading for using RBG matrices.
+
+### Version 1.5.0
+Building a housing for the game console.
+
+### Version 1.6.0
 Preparing the program for version 2.0.  
 It will be about renaming the variables and functions which are only referring to Pong.
 
