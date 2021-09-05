@@ -18,7 +18,8 @@ The code is bad documented an not that efficient written. The primary goal of th
 
 ### Version 1.2.0
 This version was about improving efficiency of the code and providing a better documentation of the code.  
-Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write it all over again.
+Accidentally the code was messed up again and the only solution for this problem was to develop a new version and write it all over again.  
+Updated circiut
 
 ### Version 1.2.1
 This version improves efficiency and readability of the code. The spawnpoint of the ball has also been updated. It will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer. Those changes made the game more fun to play.
