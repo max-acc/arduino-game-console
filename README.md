@@ -27,10 +27,9 @@ This version is the second fully working version. The major changes in this vers
 Minor changes are about the ball spawnpoint and the highscore system. The ball  will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer and if one of the players reaches five points the game will be over (the message "GO" or "Game Over" will be printed).
 
 ### Version 1.2.2
-This version includes minor bug fixes and improvements referring to the bats and the highscore system (the 2 has been outputted in a wrong way). The bats are now pixel by pixel calculated and the ball is able to be at the same y-position as the bats.
+This version includes minor bug fixes and improvements referring to the bats and the highscore system (the 2 has been outputted in a wrong way). The bats are now pixel by pixel calculated and the ball is able to be at the same y-position as the bats which has caused unpleasant ball movements (the complete logic for moving the ball has changed).
 
-### Version 1.3.0
-This is the currently work-in-progress-version.  
+### Version 1.3.0 
 This version includes the most significant changes according to usability and game play.  
 It is now possible to select different difficulties. The overall difficulty has also increased.  
 The difficulties you can choose are:    
@@ -39,10 +38,11 @@ The difficulties you can choose are:
 - Hard: The ball bounces off in a random direction and speed is equal to Easy.
 - Super Hard: Super hard is a mix of Medium and Hard. The ball bounces off in random directions and it will get pretty fast.
 
-## Roadmap
-
 ### Version 1.4.0
+This is the currently work-in-progress-version. 
 Upgrading for using two matrices instead of only one.
+
+## Roadmap
 
 ### Version 1.4.1
 Upgrading for using RBG matrices.
