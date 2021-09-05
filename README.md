@@ -1,12 +1,16 @@
 # Arduino_GameConsole
 
 ## Introduction
+The original idea about this project was to play the game **Pong** on an arduino.  
+The first problem was how to display the game. The easiest solution for this problem was to use an 8x8 one-color LED matrix (I used four LED matrix in a row because I had nothing else lying around), but a future improvement could be to use a RGB matrix (maybe 16x16).
+
 
 ## Progress
 
 ### Version 1.0
 Goal: Building the game Pong.  
-This is a non working version because I accidentally mixed up the x and y axis and started all over again.
+In this version the basic circuit to play the game has been constructed. Moreover the basic structure for making the game work has been developed.  
+But accidently I messed up (I mixed up the x and y axis) and started all over again. So this is a non-working version.
 
 ### Version 1.1
 This is the first working version of the game **Pong**.  
@@ -24,7 +28,9 @@ This version includes minor bug fixes and improvements referring to the bats and
 
 ### Version 1.3.0
 This is the currently work-in-progress-version.  
-The difficulty of the game will increase. You will be able to choose between difficulties (Easy, Medium, Hard, Super Hard).  
+This version includes the most significant changes according to usability and game play.  
+It is now possible to select different difficulties. The overall difficulty has also increased.  
+The difficulties you can choose are:    
 - Easy: The ball bounces of in a normal way and the speed of the ball and bats increase slowly, but it won't get that fast.
 - Medium: The ball bounces of in a normal way but the speed of the ball and bats increase faster and it will get pretty fast.
 - Hard: The ball bounces off in a random direction and speed is equal to Easy.
