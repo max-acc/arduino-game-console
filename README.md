@@ -13,8 +13,9 @@ In this version the basic circuit to play the game has been constructed. Moreove
 But accidently I messed up (I mixed up the x and y axis) and started all over again. So this is a non-working version.
 
 ### Version 1.1
-This is the first working version of the game **Pong**.  
-The code is bad documented an not that efficient written. The primary goal of this version was to build a working version.
+This is the first fully working version of **Pong** on arduino.  
+The game control is pretty intuitive. If you move the left or right joystick up or down, the left or right bat will move up or down. If the ball hits a bat on the upper side it will go up, if the ball hits a bat on the lower side it will go down and if the ball hits in the middle it will go straight to the other side. If the ball hits the upper or the lower part of the screen it will also change its y direction. If the ball hits the left or right side without a bat beeing behind the player who shot receives a point.  
+Another big thing of this version is the highscore system: If one of the players scores a point the highscore will be printed. But the highscore only goes to three. If someone scores another point nothing will be printed. This will be solved in a future version.
 
 ### Version 1.2.0
 This version was about improving efficiency of the code and providing a better documentation of the code.  
