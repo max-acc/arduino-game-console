@@ -330,22 +330,6 @@ void spawnBall() {
   
   ballGoUp = false;   //Just for default
   ballGoDown = false; //Just for default
-  /*int ballDirection = random(999) % 3 + 1; //Calculating a random number between 1 and 2 and 3
-  //If ballDirection is 1 the ball will go up
-  if (ballDirection == 1) {
-    ballGoUp = true;
-    ballGoDown = false;
-  }
-  //If ballDirection is 2 the ball will go straight to the other side
-  if (ballDirection == 2) {
-    ballGoUp = false;
-    ballGoDown = false;
-  }
-  //If ballDirection is 3 the ball will go down
-  if (ballDirection == 3) {
-    ballGoUp = false;
-    ballGoDown = true;
-  }*/
 }
 
 //Logic for moving the ball
