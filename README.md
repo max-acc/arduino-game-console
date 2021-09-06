@@ -47,24 +47,27 @@ It is now possible to play the game on two instead of one matrices.
 This is the currently work-in-progress-version.  
 ## Roadmap
 
-### Version 1.5.0
+### Version 1.6.0
 Upgrading for using RBG matrices.
 
-### Version 1.5.0
+### Version 1.7.0
 Building a housing for the game console.
 
-### Version 1.7.0
+### Version 1.8.0
 Preparing the program for version 2.0.  
 It will be about renaming the variables and functions which are only referring to Pong.
 
 ### Version 2.0
-Goal: Building the game TicTacToe.
+Completly working version of the game **Pong**.
 
 ### Version 3.0
-Goal: Building the game Snake.
+Goal: Building the game TicTacToe.
 
 ### Version 4.0
-Goal: Building the game ConnectFour.
+Goal: Building the game Snake.
 
 ### Version 5.0
+Goal: Building the game ConnectFour.
+
+### Version 6.0
 Goal: Building the game PacMan.
