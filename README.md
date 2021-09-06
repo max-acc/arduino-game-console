@@ -40,18 +40,20 @@ The difficulties you can choose are:
 - Super Hard: Super hard is a mix of Medium and Hard. The ball bounces off in random directions and it will get pretty fast.
 
 ### Version 1.4.0
-This is the currently work-in-progress-version. 
-Upgrading for using two matrices instead of only one.
-
-## Roadmap
+In this version the representation of the game **Pong** has completly changed.  
+It is now possible to play the game on two instead of one matrices.
 
 ### Version 1.4.1
+This is the currently work-in-progress-version.  
+## Roadmap
+
+### Version 1.5.0
 Upgrading for using RBG matrices.
 
 ### Version 1.5.0
 Building a housing for the game console.
 
-### Version 1.6.0
+### Version 1.7.0
 Preparing the program for version 2.0.  
 It will be about renaming the variables and functions which are only referring to Pong.
 
