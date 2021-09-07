@@ -31,7 +31,7 @@ This version includes minor bug fixes and improvements referring to the bats and
 
 ### Version 1.3.0 
 This version includes the most significant changes according to usability and game play.  
-the overall difficulty has been increased and it is now possible to choose the difficulty you want to play.  
+The overall difficulty has been increased and it is now possible to choose the difficulty you want to play.  
 If one of the joysticks gets moved to the left or the right the selection of the difficulties changes. If the difficulty is choosen the difficulty gets confirmed by a press on one of the joystick's buttons.    
 The difficulties you can choose are:    
 - Easy: The ball bounces off in a normal way and the speed of the ball and bats increase slowly, but it won't get that fast.
@@ -43,11 +43,17 @@ The difficulties you can choose are:
 In this version the representation of the game **Pong** has completly changed.  
 It is now possible to play the game on two instead of one matrices.
 
-### Version 1.4.1
-This is the currently work-in-progress-version.  
+### Version 1.5.0
+A lot has changed since the last release (v1.3.0-r).  
+One of the biggest changes according to the game is, that it is now possible to play the game on two instead of one matrices. The game is mostly optimized for both displays so both get used in an equal way, for example the left highscore gets displayed on the left matrix and the right highscore on the right display. The ball also moves accurate across both displays.  
+There are also a lot of changes according to the bats! The bats are now objects (OOP) and get in this way calculated and printed. This makes the program more efficient and readable. The bats also only get redrawn if they really change, so its easier for your eyes. Furthermore the position gets now calculated by the middle point and not the top one. This is a more logic way.  
+Another thing that changed is the overall difficulty. Because the display size has increased by 100% the game speed had to be adjusted. Moreover the whole code was rewritten and a lot of functions and variables had been renamed in a more logical way. There are also new variables and functions for better and more efficient navigation. The program is now also better commented.
+
+
 ## Roadmap
 
 ### Version 1.6.0
+This is the currently work-in-progress-version. 
 Upgrading for using RBG matrices.
 
 ### Version 1.7.0
