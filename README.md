@@ -39,10 +39,6 @@ The difficulties you can choose are:
 - Hard: The ball bounces off in a random direction and speed is equal to Easy.
 - Super Hard: Super hard is a mix of Medium and Hard. The ball bounces off in random directions and it will get pretty fast.
 
-### Version 1.4.0
-In this version the representation of the game **Pong** has completly changed.  
-It is now possible to play the game on two instead of one matrices.
-
 ### Version 1.5.0
 A lot has changed since the last release (v1.3.0-r).  
 One of the biggest changes according to the game is, that it is now possible to play the game on two instead of one matrices. The game is mostly optimized for both displays so both get used in an equal way, for example the left highscore gets displayed on the left matrix and the right highscore on the right display. The ball also moves accurate across both displays.  
