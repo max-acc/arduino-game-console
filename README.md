@@ -1,5 +1,7 @@
 # Arduino_GameConsole
 
+Version 0.5.1-b is now realeased
+
 ## Introduction
 The original idea about this project was to play the game **Pong** on an arduino.  
 The first problem was how to display the game. The easiest solution for this problem was to use an 8x8 one-color LED matrix (I used four LED matrices in a row because I had nothing else lying around), but a future improvement could be to use a RGB matrix (maybe 16x16).  
@@ -44,7 +46,7 @@ Another thing that changed is the overall difficulty. Because the display size h
 ## Roadmap
 
 ### Version 0.6.0
-This is the currently work-in-progress-version. 
+This is the currently work-in-progress-version.  
 Upgrading for using RBG matrices.
 
 ### Version 0.7.0
