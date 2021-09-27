@@ -1,6 +1,6 @@
 # Arduino_GameConsole
 
-Version 0.5.1-b is now realeased
+Version 0.5.2-rc is now realeased
 
 ## Introduction
 The original idea about this project was to play the game **Pong** on an arduino.  
