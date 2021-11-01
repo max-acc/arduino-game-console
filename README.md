@@ -3,9 +3,15 @@
 Version 0.5.4-rc is now realeased. 
 
 ## Introduction
-The original idea about this project was to play the game **Pong** on an arduino.  
-The first problem was how to display the game. The easiest solution for this problem was to use an 8x8 one-color LED matrix (I used four LED matrices in a row because I had nothing else lying around), but a future improvement could be to use a RGB matrix (maybe 16x16).  
-Below aren't all versions listed. If you want to see every version with every minor changes, take a look at the releases.
+**Arduino GameConsole** is a code project with the goal of builing a game console with an Arduino.  
+The orignal idea is to bring the game **Pong** on an Arduino (v1.0).  
+The future approach is to bring more retro games like **TicTacToe**, **Snake** or **PacMan** on Arduino.  
+Below aren't all versions listed. If you want to see every version with every minor change, take a look at the releases.  
+
+
+## How to get started
+First you have to download the files. After that you have to download the libraries.  
+Until v0.5.0 you can use the [LedControl](https://github.com/wayoda/LedControl). For later versions you have to use Adafruit libraries ([NeoMatrix](https://github.com/adafruit/Adafruit_NeoMatrix), [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel), [GFX](https://github.com/adafruit/Adafruit-GFX-Library))
 
 
 ## Progress
