@@ -1,6 +1,6 @@
 # Arduino_GameConsole 
 
-Version 0.5.4-rc is now realeased. 
+Version 0.6.0-r is now realeased. 
 
 ## Introduction
 **Arduino GameConsole** is a code project with the goal of builing a game console with an Arduino.  
@@ -49,8 +49,11 @@ There are also a lot of changes according to the bats! The bats are now objects 
 Another thing that changed is the overall difficulty. Because the display size has increased by 100% the game speed had to be adjusted. Moreover the whole code was rewritten and a lot of functions and variables had been renamed in a more logical way. There are also new variables and functions for better and more efficient navigation. The program is now also better commented.
 
 ### Version 0.6.0 (Full version for dual RGB matrices)
-This is the currently work-in-progress-version.  
-Upgrading for using RBG matrices.
+I thought that v0.3.0 brought the most significant changes but I was wrong.  
+This is the version with the most significant changes by a big margin. Why, here is why!  
+The single color displays had been upgraded to RGB colors (so everything is faster and you are a better gamer while playing the game). The next big change is that the code now performs multitasking. Before the update you had to wait one iteration of the game to move the bats. Now you haven't!  
+The overall efficiency and readability of the code has also been improved due to better variable renaming and more efficient variable decleration.  
+The transitions on the display are now also animated.
 
 ## Roadmap
 
