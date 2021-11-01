@@ -30,7 +30,7 @@ Another big thing of this version is the highscore system: If one of the players
 This version is the second fully working version. The major changes in this version are about readability and efficiency referring to using functions multiple times and seperating functions from others to achieve a more global usage. Another thing is that the circuit has changed to use the joysticks buttons.  
 Minor changes are about the ball spawnpoint and the highscore system. The ball  will spawn now randomly on a position where it is makeable for both players to hit the ball. The highscore has been increased to five so the game takes longer and if one of the players reaches five points the game will be over (the message "GO" or "Game Over" will be printed). Those messages will be printed as long as none of the joystick's buttons is pressed.
 
-### Version 0.3.0 (Full version of single color matrix)
+### Version 0.3.0 (Full version for single color matrix)
 This version includes the most significant changes according to usability and game play.  
 The overall difficulty has been increased and it is now possible to choose the difficulty you want to play.  
 If one of the joysticks gets moved to the left or the right the selection of the difficulties changes. If the difficulty is choosen the difficulty gets confirmed by a press on one of the joystick's buttons.    
@@ -42,18 +42,17 @@ The difficulties you can choose are:
 
 Minor changes refer to small bugs fixes like the hihgscore system (the 2 has been outputtet in a wrong way) and improvements referring to the bats, which are now pixel by pixel calculated so the ball is able to be at the same y position as the bat which has caused unpleasant ball movements before (to achieve this the complete logic for the ball had to be changed).
 
-### Version 0.5.0 (Full version of dual single color matrices)
+### Version 0.5.0 (Full version for dual single color matrices)
 A lot has changed since the last release (v0.3.0-r).  
 One of the biggest changes according to the game is, that it is now possible to play the game on two instead of one matrices. The game is mostly optimized for both displays so both get used in an equal way, for example the left highscore gets displayed on the left matrix and the right highscore on the right display. The ball also moves accurate across both displays.  
 There are also a lot of changes according to the bats! The bats are now objects (OOP) and get calculated and printed in this way. This makes the program more efficient and readable. The bats also only get redrawn if they really change, so its easier for your eyes. Furthermore the position gets now calculated by the middle point and not the top one. This is a more logical.  
 Another thing that changed is the overall difficulty. Because the display size has increased by 100% the game speed had to be adjusted. Moreover the whole code was rewritten and a lot of functions and variables had been renamed in a more logical way. There are also new variables and functions for better and more efficient navigation. The program is now also better commented.
 
-
-## Roadmap
-
-### Version 0.6.0
+### Version 0.6.0 (Full version for dual RGB matrices)
 This is the currently work-in-progress-version.  
 Upgrading for using RBG matrices.
+
+## Roadmap
 
 ### Version 0.7.0
 Building a housing for the game console.
