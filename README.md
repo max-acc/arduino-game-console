@@ -1,6 +1,6 @@
 # Arduino_GameConsole 
 
-Version 0.6.0-r is now realeased. 
+Version 1.0.0-r is now realeased. 
 
 ## Introduction
 **Arduino GameConsole** is a code project with the goal of builing a game console with an Arduino.  
@@ -54,28 +54,25 @@ I thought that v0.3.0 brought the most significant changes, but I was wrong.
 This is the version with the most significant changes by a big margin. Why, here is why!  
 The single color displays had been upgraded to RGB colors (so everything is faster and you are a better gamer while playing the game). The next big change is that the code now performs multitasking. Before the update you had to wait one iteration of the game to move the bats. Now you haven't!  
 The overall efficiency and readability of the code has also been improved due to better variable renaming and more efficient variable declaration.  
-The transitions on the display are now also animated.
+The transitions on the display are now animated.
+
+### Version 1.0
+Version 1.0 is the complete version for the game Pong. After this point of time, there won't be any major changes to the game.  
+With this Version it is possible to play Pong with two players on two RGB matrices.
 
 ## Roadmap
 
-### Version 0.7.0
-Building a housing for the game console.
-
-### Version 0.8.0
-Preparing the program for version 2.0.  
-It will be about renaming the variables and functions which are only referring to Pong.
-
-### Version 1.0
-Completly working version of the game **Pong**.
-
 ### Version 2.0
-Goal: Building the game TicTacToe.
+Goal: Building Conway's Game of Life.
 
 ### Version 3.0
-Goal: Building the game Snake.
+Goal: Building the game TicTacToe.
 
 ### Version 4.0
-Goal: Building the game ConnectFour.
+Goal: Building the game Snake.
 
 ### Version 5.0
+Goal: Building the game ConnectFour.
+
+### Version 6.0
 Goal: Building the game PacMan.
