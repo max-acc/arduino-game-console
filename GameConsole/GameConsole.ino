@@ -1,16 +1,16 @@
-//Pong V 1.6.0
+//Pong V1.0.0
 //by Max Wenk
 //
 //http://aliencorporation.cf
 //
-//Final version including some readability changes
-
+//Final release of version 1.0 which is a complete version of the game Pong
 
 
 //Including libraries
 #include <Adafruit_GFX.h>
 #include <Adafruit_NeoMatrix.h>
 #include <Adafruit_NeoPixel.h>
+
 
 //Setting up timestamps for multitasking
 unsigned long lastMillisPongBall;
@@ -23,7 +23,7 @@ uint16_t joystickLeftButton;
 uint16_t joystickRightY;
 uint16_t joystickRightX;
 uint16_t joystickRightButton;
-const uint8_t button = 7;
+uint8_t button = 7;
 bool joystickBothUp;
 bool joystickBothDown;
 bool joystickBothLeft;
@@ -33,19 +33,19 @@ bool buttonstatus = false;
 
 
 //Initialising the matrices
-const uint8_t matrixPIN    = 6;
-const uint8_t matrixWIDTH  = 8;
-const uint8_t matrixHEIGHT = 8;
+const uint8_t matrixPin    = 6;
+const uint8_t matrixWidth  = 8;
+const uint8_t matrixHeight = 8;
 const uint8_t matrixTilesX = 2;
 const uint8_t matrixTilesY = 1;
 
 //Standard variables for maybe later use
-const uint8_t totalWidth  = matrixWIDTH * matrixTilesX;
-const uint8_t totalHeight = matrixHEIGHT * matrixTilesY;
+const uint8_t totalWidth  = matrixWidth * matrixTilesX;
+const uint8_t totalHeight = matrixHeight * matrixTilesY;
 const uint8_t totalPixels = totalWidth * totalHeight;
 uint8_t matrixBrightness = 5;
 
-Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(matrixWIDTH, matrixHEIGHT, matrixTilesY, matrixTilesX, matrixPIN,
+Adafruit_NeoMatrix matrix = Adafruit_NeoMatrix(matrixWidth, matrixHeight, matrixTilesY, matrixTilesX, matrixPin,
   NEO_TILE_TOP   + NEO_TILE_LEFT   + NEO_TILE_ROWS   + NEO_TILE_PROGRESSIVE +
   NEO_MATRIX_TOP + NEO_MATRIX_LEFT + NEO_MATRIX_COLUMNS + NEO_MATRIX_PROGRESSIVE,
   NEO_GRB + NEO_KHZ800);
