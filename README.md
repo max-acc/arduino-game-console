@@ -1,11 +1,11 @@
-# Arduino_GameConsole 
+# Arduino GameConsole 
 
 Version 1.0.0-r is now realeased. 
 
 ## Introduction
 **Arduino GameConsole** is a code project with the goal of builing a game console with an Arduino.  
 The orignal idea was to bring the game **Pong** on the Arduino (v1.0).  
-The future approach is to bring more retro games like **TicTacToe**, **Snake** or **PacMan** on Arduino.  
+The future approach is to bring more retro-ish games like **TicTacToe**, **Snake** or **PacMan** on Arduino.  
 Below aren't all versions listed. If you want to see every version with every minor change, take a look at the releases.  
 
 
